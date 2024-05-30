@@ -1,0 +1,115 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(rgb(48, 5, 5), rgb(177, 59, 26),#f68a8a, white);
+    width: 100%;
+}
+header ul li{
+    margin: 10px;
+    color: white;
+    
+}
+.serie{
+    align-items:flex-start;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+img{
+    width: 100PX;
+    align-items: center;
+
+}
+
+body{
+    background-color: rgb(230, 195, 195);
+}
+h2, h3, h4{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color:antiquewhite;
+}
+.top{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+h1{
+    text-align: center;
+    color:rgb(126, 6, 6);
+    font-size: 40px;
+}
+.true{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+}
+.true img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.dexter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.dexter img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.juju{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    text-align:center;
+}
+.juju img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+footer {
+    width: 100%;
+    background-color: rgb(72, 5, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    height: auto; 
+}
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.mapa{
+    position: relative;
+    width: 100%;
+    
+}
